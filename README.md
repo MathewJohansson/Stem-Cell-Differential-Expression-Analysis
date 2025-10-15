@@ -7,7 +7,13 @@ This project performs differential expression analysis on single-cell RNA-seq da
 Which genes drive differentiation in haematopoietic stem cells as they transition from stem/progenitor states to committed progenitor cells?
 
 ## Data
-Source, what it contains, sample sizes
+- **Source**: Nestorowa et al. (2016) - single-cell RNA-seq of mouse hematopoietic stem cells
+- **Subset**: Secretome genes (genes encoding secreted proteins)
+- **Sample sizes**: 
+  - 701 HSPC cells (Hematopoietic Stem and Progenitor Cells)
+  - 798 Prog cells (Progenitor cells)
+- **Total genes analyzed**: 423 secretome genes
+- **Data format**: Log2-normalized expression values
 
 ## Methods
 Brief workflow summary
@@ -25,4 +31,4 @@ What's in each folder
 How to run the analysis
 
 ## References
-Data source citation
+Nestorowa, S., Hamey, F.K., Pijuan Sala, B., Diamanti, E., Shepherd, M., Laurenti, E., Wilson, N.K., Kent, D.G. and Göttgens, B. (2016). 'A single-cell resolution map of mouse hematopoietic stem and progenitor cell differentiation'. Blood, 128(8), pp.e20–e31. doi:https://doi.org/10.1182/blood-2016-05-716480.
