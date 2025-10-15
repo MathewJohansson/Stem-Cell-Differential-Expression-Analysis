@@ -4,7 +4,7 @@
 This project performs differential expression analysis on single-cell RNA-seq data from mouse haematopoietic stem cells at different stages of differentiation. The analysis compares gene expression between Haematopoietic Stem and Progenitor Cells (HSPC) and more differentiated Progenitor cells (Prog) to identify genes driving stem cell commitment. The workflow demonstrates standard bioinformatics practices including data quality control, statistical analysis using scran, and visualisation through PCA and volcano plots.
 
 ## Research Question
-The biological question I'm answering
+Which genes drive differentiation in haematopoietic stem cells as they transition from stem/progenitor states to committed progenitor cells?
 
 ## Data
 Source, what it contains, sample sizes
