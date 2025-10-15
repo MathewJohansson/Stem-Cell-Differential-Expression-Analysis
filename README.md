@@ -83,9 +83,9 @@ BiocManager::install(c("scran", "biomaRt"))
 │   ├── hspc_prog_results.csv              # Full DE results with gene annotations.
 │   ├── hspc_prog_results_sig0.05.csv      # Significant genes only (FDR ≤ 0.05).
 │   ├── hspc_prog_only.csv                 # Prog-specific genes.
-│   └── hspc_prog_hspc_only.csv            # HSPC-specific genes..
+│   └── hspc_prog_hspc_only.csv            # HSPC-specific genes.
 ├── figures/                   # Publication-ready plots.
-│   ├── pca_hspc_prog.png      # PCA visualisation
+│   ├── pca_hspc_prog.png      # PCA visualisation.
 │   └── volcano_hspc_prog.png  # Volcano plot with Flt3 highlighted.
 ├── hspc_prog_analysis.R       # Main analysis script (all three workshops).
 ├── README.md                  # This file.
@@ -94,7 +94,15 @@ BiocManager::install(c("scran", "biomaRt"))
 
 
 ## Usage
-How to run the analysis
+1. Clone this repository.
+2. Ensure all dependencies are installed (see Dependencies section).
+3. Open `hspc_prog_analysis.R` in RStudio.
+4. Run the script section by section, or source the entire file.
+
+The script is organized into clearly marked sections:
+- Section 1: Data exploration and QC.
+- Section 2: Differential expression analysis.
+- Section 3: Visualisation (PCA and volcano plots).
 
 
 ## References
