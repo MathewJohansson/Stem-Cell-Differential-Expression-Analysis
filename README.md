@@ -66,10 +66,10 @@ BiocManager::install(c("scran", "biomaRt"))
 ```
 
 ### Key packages used:
-- `scran` - Single-cell differential expression analysis
-- `biomaRt` - Gene annotation from Ensembl
-- `tidyverse` - Data manipulation and visualization
-- `ggrepel` - Text label positioning on plots
+- `scran` - Single-cell differential expression analysis.
+- `biomaRt` - Gene annotation from Ensembl.
+- `tidyverse` - Data manipulation and visualisation.
+- `ggrepel` - Text label positioning on plots.
 
 
 ## File Structure
