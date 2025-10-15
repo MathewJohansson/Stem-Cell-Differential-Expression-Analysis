@@ -40,13 +40,13 @@ Which genes drive differentiation in haematopoietic stem cells as they transitio
 
 
 ## Key Results
-- **282 out of 423 genes** (67%) were significantly differentially expressed between HSPC and Progenitor cells (FDR ≤ 0.05)
-- Strong remodeling of the secretome during hematopoietic differentiation, indicating major changes in cell-cell signaling
+- **282 out of 423 genes** (67%) were significantly differentially expressed between HSPC and Progenitor cells (FDR ≤ 0.05).
+- Strong remodeling of the secretome during haematopoietic differentiation, indicating major changes in cell-cell signaling.
 - **Top differentially expressed genes** include:
-  - **Flt3** (log2FC = -3.70, FDR = 1.9×10⁻⁹⁵): Higher in HSPC, marks progenitor commitment
-  - **Ltb** (log2FC = -4.39, FDR = 1.5×10⁻¹⁴⁵): Lymphotoxin beta, involved in immune signaling
-  - **Pglyrp2** (log2FC = -4.00, FDR = 1.5×10⁻¹²⁵): Peptidoglycan recognition protein
-- PCA shows partial separation between cell types (PC1: 10.7% variance, PC2: 5.5% variance), indicating distinct but overlapping expression profiles consistent with a differentiation continuum
+  - **Flt3** (log2FC = -3.70, FDR = 1.9×10⁻⁹⁵): Higher in HSPC, marks progenitor commitment.
+  - **Ltb** (log2FC = -4.39, FDR = 1.5×10⁻¹⁴⁵): Lymphotoxin beta, involved in immune signaling.
+  - **Pglyrp2** (log2FC = -4.00, FDR = 1.5×10⁻¹²⁵): Peptidoglycan recognition protein.
+- PCA shows partial separation between cell types (PC1: 10.7% variance, PC2: 5.5% variance), indicating distinct but overlapping expression profiles consistent with a differentiation continuum.
 
 
 ## Dependencies
