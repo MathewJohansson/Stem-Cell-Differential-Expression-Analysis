@@ -48,6 +48,12 @@ Which genes drive differentiation in haematopoietic stem cells as they transitio
   - **Pglyrp2** (log2FC = -4.00, FDR = 1.5×10⁻¹²⁵): Peptidoglycan recognition protein.
 - PCA shows partial separation between cell types (PC1: 10.7% variance, PC2: 5.5% variance), indicating distinct but overlapping expression profiles consistent with a differentiation continuum.
 
+### PCA Analysis
+![PCA of HSPC and Progenitor Cells](figures/pca_hspc_prog.png)
+
+### Differential Expression
+![Volcano Plot](figures/volcano_hspc_prog.png)
+
 
 ## Dependencies
 ### R version
