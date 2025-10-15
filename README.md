@@ -1,4 +1,4 @@
-# Differential Expression Analysis: Mouse Haematopoietic Stem Cell Differentiation
+w# Differential Expression Analysis: Mouse Haematopoietic Stem Cell Differentiation
 
 ## Overview
 This project performs differential expression analysis on single-cell RNA-seq data from mouse haematopoietic stem cells at different stages of differentiation. The analysis compares gene expression between Haematopoietic Stem and Progenitor Cells (HSPC) and more differentiated Progenitor cells (Prog) to identify genes driving stem cell commitment. The workflow demonstrates standard bioinformatics practices including data quality control, statistical analysis using scran, and visualisation through PCA and volcano plots.
@@ -16,7 +16,23 @@ Which genes drive differentiation in haematopoietic stem cells as they transitio
 - **Data format**: Log2-normalized expression values.
 
 ## Methods
-Brief workflow summary
+### 1. Data Exploration and Quality Control
+- Examined distribution of expression values across genes and cells.
+- Verified data quality and sample consistency.
+- Filtered for expressed genes (no genes with zero expression across all samples).
+
+### 2. Differential Expression Analysis
+- Statistical method: `scran::findMarkers()` for single-cell RNA-seq data.
+- Comparison: Progenitor cells vs HSPC cells.
+- Significance threshold: FDR ≤ 0.05.
+- Effect size threshold: |log2 fold change| ≥ 2 for biological relevance.
+
+### 3. Visualisation
+- **Principal Component Analysis (PCA)**: Assessed separation between cell types based on gene expression profiles.
+- **Volcano plots**: Visualised statistical significance vs biological effect size, highlighting key differentiation markers (e.g., Flt3).
+
+### 4. Gene Annotation
+- Retrieved gene names and descriptions from Ensembl using `biomaRt`.
 
 ## Key Results
 Main findings with numbers
