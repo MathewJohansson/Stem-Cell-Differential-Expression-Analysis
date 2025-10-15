@@ -74,22 +74,22 @@ BiocManager::install(c("scran", "biomaRt"))
 
 ## File Structure
 ```
-├── data-raw/                  # Original input data
-│   ├── secretome_hspc.csv     # HSPC cell expression data
-│   └── secretome_prog.csv     # Progenitor cell expression data
-├── data-processed/            # Processed/filtered data
-│   └── hspc_prog.csv          # Merged and QC-filtered dataset
-├── results/                   # Analysis outputs
-│   ├── hspc_prog_results.csv              # Full DE results with gene annotations
-│   ├── hspc_prog_results_sig0.05.csv      # Significant genes only (FDR ≤ 0.05)
-│   ├── hspc_prog_only.csv                 # Prog-specific genes
-│   └── hspc_prog_hspc_only.csv            # HSPC-specific genes
-├── figures/                   # Publication-ready plots
-│   ├── pca_hspc_prog.png      # PCA visualization
-│   └── volcano_hspc_prog.png  # Volcano plot with Flt3 highlighted
-├── hspc_prog_analysis.R       # Main analysis script (all three workshops)
-├── README.md                  # This file
-└── .gitignore                 # Git ignore rules
+├── data-raw/                  # Original input data.
+│   ├── secretome_hspc.csv     # HSPC cell expression data.
+│   └── secretome_prog.csv     # Progenitor cell expression data.
+├── data-processed/            # Processed/filtered data.
+│   └── hspc_prog.csv          # Merged and QC-filtered dataset.
+├── results/                   # Analysis outputs.
+│   ├── hspc_prog_results.csv              # Full DE results with gene annotations.
+│   ├── hspc_prog_results_sig0.05.csv      # Significant genes only (FDR ≤ 0.05).
+│   ├── hspc_prog_only.csv                 # Prog-specific genes.
+│   └── hspc_prog_hspc_only.csv            # HSPC-specific genes..
+├── figures/                   # Publication-ready plots.
+│   ├── pca_hspc_prog.png      # PCA visualisation
+│   └── volcano_hspc_prog.png  # Volcano plot with Flt3 highlighted.
+├── hspc_prog_analysis.R       # Main analysis script (all three workshops).
+├── README.md                  # This file.
+└── .gitignore                 # Git ignore rules.
 ```
 
 
