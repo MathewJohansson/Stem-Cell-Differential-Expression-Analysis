@@ -50,7 +50,26 @@ Which genes drive differentiation in haematopoietic stem cells as they transitio
 
 
 ## Dependencies
-R version, packages used
+### R version
+- R 4.3.x (or compatible version)
+
+### Required packages
+```r
+# CRAN packages
+install.packages(c("tidyverse", "readxl", "ggrepel"))
+
+# Bioconductor packages
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install(c("scran", "biomaRt"))
+```
+
+### Key packages used:
+- `scran` - Single-cell differential expression analysis
+- `biomaRt` - Gene annotation from Ensembl
+- `tidyverse` - Data manipulation and visualization
+- `ggrepel` - Text label positioning on plots
 
 
 ## File Structure
