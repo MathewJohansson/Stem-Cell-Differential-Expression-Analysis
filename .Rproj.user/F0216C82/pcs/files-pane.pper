@@ -1,0 +1,17 @@
+{
+    "sortOrder": [
+        {
+            "columnIndex": 2,
+            "ascending": true
+        },
+        {
+            "columnIndex": 1,
+            "ascending": false
+        },
+        {
+            "columnIndex": 4,
+            "ascending": false
+        }
+    ],
+    "path": "~/Documents/Bioinformatics/Portfolio Projects/Project 1. Differential Expression Analysis/Stem Cell Analysis/figures"
+}
