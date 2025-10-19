@@ -53,7 +53,7 @@ Which genes drive differentiation in haematopoietic stem cells as they transitio
 
 ### Differential Expression
 ![Volcano Plot](figures/volcano_hspc_prog.png)
-*Genes in the upper corners (dark red) show both statistical significance (FDR < 0.05) and large effect size (|log2FC| > 2), representing high-confidence differentiation markers.*
+*Genes in the upper corners (dark red) show both statistical significance (FDR < 0.05) and large effect size (|log2FC| > 2), representing high-confidence differentiation markers. Flt3, a known regulator of hematopoietic progenitor commitment, is highlighted as a key example.*
 
 
 ## Dependencies
