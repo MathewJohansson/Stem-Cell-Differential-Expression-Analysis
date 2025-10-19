@@ -16,7 +16,7 @@ Which genes drive differentiation in haematopoietic stem cells as they transitio
   - 701 HSPC cells (Haematopoietic Stem and Progenitor Cells).
   - 798 Prog cells (Progenitor cells).
 - **Total genes analyzed**: 423 secretome genes.
-- **Data format**: Log2-normalized expression values.
+- **Data format**: Log2-normalised expression values.
 
 
 ## Methods
