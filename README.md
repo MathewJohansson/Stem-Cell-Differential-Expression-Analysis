@@ -126,5 +126,5 @@ MSc Bioinformatics
 
 ## Acknowledgements
 
-This project was completed as part of the MSc in Bioinformatics at the University of York, building upon the collaborative SinceAraBOXcis project framework.
+This project was completed as part of the MSc in Bioinformatics at the University of York.
 
