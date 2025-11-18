@@ -120,6 +120,10 @@ The script is organized into clearly marked sections:
 MSc Bioinformatics  
 [GitHub](https://github.com/MathewJohansson) | [LinkedIn](https://www.linkedin.com/in/mathew-johansson/))
 
+## Acknowledgements
+
+This project was completed as part of the MSc in Bioinformatics at the University of York, building upon the collaborative SinceAraBOXcis project framework.
+
 
 ## References
 Nestorowa, S., Hamey, F.K., Sala, B.P., Diamanti, E., Shepherd, M., Laurenti, E., Wilson, N.K., Kent, D.G. and Göttgens, B. (2016). 'A single-cell resolution map of mouse hematopoietic stem and progenitor cell differentiation'. Blood, 128(8), pp.e20–e31. doi:https://doi.org/10.1182/blood-2016-05-716480.
