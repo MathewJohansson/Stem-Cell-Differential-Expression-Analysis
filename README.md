@@ -114,6 +114,10 @@ The script is organized into clearly marked sections:
 - Section 2: Differential expression analysis.
 - Section 3: Visualisation (PCA and volcano plots).
 
+
+## References
+Nestorowa, S., Hamey, F.K., Sala, B.P., Diamanti, E., Shepherd, M., Laurenti, E., Wilson, N.K., Kent, D.G. and Göttgens, B. (2016). 'A single-cell resolution map of mouse hematopoietic stem and progenitor cell differentiation'. Blood, 128(8), pp.e20–e31. doi:https://doi.org/10.1182/blood-2016-05-716480.
+
 ## Author
 
 **Mathew Johansson**  
