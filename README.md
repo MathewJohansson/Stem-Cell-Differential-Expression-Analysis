@@ -121,7 +121,8 @@ Nestorowa, S., Hamey, F.K., Sala, B.P., Diamanti, E., Shepherd, M., Laurenti, E.
 ## Author
 
 **Mathew Johansson**  
-MSc Bioinformatics  
+MSc Bioinformatics, University of York  
+Voluntary Research Associate, Jeffares Lab  
 [GitHub](https://github.com/MathewJohansson) | [LinkedIn](https://www.linkedin.com/in/mathew-johansson/))
 
 ## Acknowledgements
