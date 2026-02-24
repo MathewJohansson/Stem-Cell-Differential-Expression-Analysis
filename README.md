@@ -109,7 +109,7 @@ BiocManager::install(c("scran", "biomaRt"))
 3. Open `hspc_prog_analysis.R` in RStudio.
 4. Run the script section by section, or source the entire file.
 
-The script is organized into clearly marked sections:
+The script is organised into clearly marked sections:
 - Section 1: Data exploration and QC.
 - Section 2: Differential expression analysis.
 - Section 3: Visualisation (PCA and volcano plots).
